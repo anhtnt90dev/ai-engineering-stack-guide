@@ -1,18 +1,19 @@
 ---
-title: AI Engineering Workflow & Agent Runtime Guide
+title: AI Engineering Stack Guide
 ---
 
-# AI Engineering Workflow & Agent Runtime Guide
+# AI Engineering Stack Guide
 
-This guide explains AI engineering workflow frameworks and agent harness/runtime tools from the perspective of an AI solution architect and engineering lead.
+This guide explains the modern AI engineering stack from the perspective of an AI solution architect and engineering lead: workflow frameworks, agent harnesses/runtimes, agent app frameworks, model serving, RAG/data, tools/MCP, evals, observability, security, and governance.
 
 The site is intentionally ordered in this sequence:
 
 1. Foundations: understand AI-DLC and Spec-Driven Development.
-2. Agent runtime layer: understand where tools like Hermes, Codex CLI, and Claude Code fit.
-3. Deep dives: understand each framework on its own terms.
-4. Comparison: compare only after the core context is clear.
-5. Adoption: choose a workflow and harness for a real team, risk level, and codebase.
+2. Stack map: understand model serving, RAG/data, tools/MCP, evals, security, and governance.
+3. Agent layers: understand where LangChain, LangGraph, Hermes, Codex CLI, and Claude Code fit.
+4. Deep dives: understand each framework on its own terms.
+5. Comparison: compare only after the core context is clear.
+6. Adoption: choose a stack for a real team, risk level, and codebase.
 
 ## Start with the full stack
 

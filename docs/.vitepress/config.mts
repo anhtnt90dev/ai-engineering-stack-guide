@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
 
-const base = process.env.BASE_PATH ?? '/framework-compare/'
+const base = process.env.BASE_PATH ?? '/ai-engineering-stack-guide/'
 
 const enSidebar = [
   {
@@ -131,8 +131,8 @@ const viSidebar = [
 ]
 
 export default defineConfig({
-  title: 'AI Engineering Workflow & Agent Runtime Guide',
-  description: 'A multilingual guide to AI engineering workflow frameworks and agent harness/runtime tools.',
+  title: 'AI Engineering Stack Guide',
+  description: 'A bilingual guide to the AI engineering stack: AI-DLC, SDD, agent runtimes, app frameworks, RAG, tools, evals, observability, security, and governance.',
   base,
   cleanUrls: true,
   lastUpdated: true,
@@ -150,7 +150,7 @@ export default defineConfig({
   },
   themeConfig: {
     logo: '/favicon.svg',
-    siteTitle: 'AI Engineering Guide',
+    siteTitle: 'AI Stack Guide',
     search: {
       provider: 'local'
     },
@@ -178,10 +178,10 @@ export default defineConfig({
       '/vi/': viSidebar
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/anhtnt90dev/framework-compare' }
+      { icon: 'github', link: 'https://github.com/anhtnt90dev/ai-engineering-stack-guide' }
     ],
     footer: {
-      message: 'Built as a static multilingual AI engineering workflow and agent runtime guide.',
+      message: 'Built as a static bilingual AI engineering stack guide.',
       copyright: 'MIT-style content structure. Verify upstream framework docs before production adoption.'
     },
     outline: {

@@ -1,18 +1,19 @@
 ---
-title: Hướng dẫn AI Engineering Workflow và Agent Runtime
+title: Hướng dẫn AI Engineering Stack
 ---
 
-# Hướng dẫn AI Engineering Workflow và Agent Runtime
+# Hướng dẫn AI Engineering Stack
 
-Tài liệu này giải thích các AI engineering workflow frameworks và agent harness/runtime tools dưới góc nhìn của AI solution architect và engineering lead.
+Tài liệu này giải thích AI engineering stack hiện đại dưới góc nhìn của AI solution architect và engineering lead: workflow frameworks, agent harness/runtime, agent app frameworks, model serving, RAG/data, tools/MCP, evals, observability, security và governance.
 
 Thứ tự đọc được thiết kế như sau:
 
 1. Nền tảng: hiểu AI-DLC và Spec-Driven Development.
-2. Agent runtime layer: hiểu Hermes, Codex CLI, Claude Code nằm ở tầng nào.
-3. Đi sâu từng framework: hiểu từng framework theo đúng bản chất của nó.
-4. So sánh: chỉ so sánh sau khi đã có đủ context.
-5. Áp dụng: chọn workflow và harness theo team, mức rủi ro và loại codebase.
+2. Stack map: hiểu model serving, RAG/data, tools/MCP, evals, security và governance.
+3. Agent layers: hiểu LangChain, LangGraph, Hermes, Codex CLI, Claude Code nằm ở tầng nào.
+4. Đi sâu từng framework: hiểu từng framework theo đúng bản chất của nó.
+5. So sánh: chỉ so sánh sau khi đã có đủ context.
+6. Áp dụng: chọn stack theo team, mức rủi ro và loại codebase.
 
 ## Bắt đầu bằng bản đồ stack
 

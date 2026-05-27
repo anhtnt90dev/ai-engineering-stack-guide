@@ -1,8 +1,8 @@
-# AI Engineering Workflow & Agent Runtime Guide
+# AI Engineering Stack Guide
 
-Static multilingual documentation site for comparing AI engineering workflow frameworks and agent harness/runtime tools: AI-DLC, Spec-Driven Development, GitHub Spec Kit, OpenSpec, AWS AI-DLC Workflows, GSD / Get Shit Done, Superpowers, Hermes Agent, and related coding agent CLIs.
+Static bilingual documentation site for understanding the AI engineering stack: AI-DLC, Spec-Driven Development, workflow frameworks, agent harnesses/runtimes, agent app frameworks, RAG/data, MCP/tools, evals, observability, security, and governance.
 
-Live site: <https://anhtnt90dev.github.io/framework-compare/>
+Live site: <https://anhtnt90dev.github.io/ai-engineering-stack-guide/>
 
 ## Local development
 
