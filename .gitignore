@@ -1,0 +1,8 @@
+node_modules/
+docs/.vitepress/cache/
+docs/.vitepress/dist/
+.superpowers/
+ui-header-check.png
+*.log
+.DS_Store
+Thumbs.db
