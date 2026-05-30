@@ -99,7 +99,7 @@ No single framework owns all of that. A mature team combines a small number of l
 - [GitHub Spec Kit](https://github.com/github/spec-kit)
 - [OpenSpec](https://github.com/Fission-AI/OpenSpec)
 - [AWS AI-DLC Workflows](https://github.com/awslabs/aidlc-workflows)
-- [GSD Redux](https://github.com/open-gsd/get-shit-done-redux)
+- [GSD Core](https://github.com/open-gsd/gsd-core)
 - [Superpowers](https://github.com/obra/superpowers)
 - [Hermes Agent](https://github.com/NousResearch/hermes-agent)
 - [LangChain overview](https://docs.langchain.com/oss/python/langchain/overview)

@@ -208,28 +208,32 @@ What to add next to make it shareable:
 | Templates pack | Converts readers into users |
 | Short videos/GIFs | Shows workflows in action |
 
-## Recommended next content backlog
+## Completed usefulness upgrades
+
+| Addition | Where |
+|---|---|
+| One-page cheat sheet | [Decision Tools](../tools/cheat-sheet) |
+| Interactive decision wizard | [Decision Wizard](../tools/decision-wizard) |
+| Downloadable templates pack | [Templates and Starter Artifacts](../tools/templates) |
+| Scenario lab with one feature across workflows | [Scenario Lab](../tools/scenario-lab) |
+| Extended adjacent ecosystem guide | [Adjacent Agent Ecosystem Map](../tools/ecosystem-map) |
+
+## Remaining high-value backlog
 
 | Priority | Addition | Why |
 |---|---|---|
-| P0 | Downloadable templates pack | Converts guide into practical toolkit |
-| P0 | One-page cheat sheet | Makes the guide shareable |
-| P1 | Example repo with 4 branches, one per framework | Makes differences concrete |
-| P1 | Interactive decision wizard | Improves usability |
+| P1 | Runnable example repository with branches per workflow | Makes differences concrete in code |
 | P1 | Prompt library | Helps readers start quickly |
-| P1 | Harness/runtime comparison guide | Explains Codex, Claude Code, Hermes, and OpenCode clearly |
-| P1 | Extended ecosystem guide | Explains LlamaIndex, Semantic Kernel, AutoGen, CrewAI, OpenAI Agents SDK |
+| P1 | CI guardrail examples | Helps platform teams operationalize eval/security gates |
 | P2 | Workshop deck | Helps enterprise adoption |
-| P2 | Case studies | Builds credibility |
-| P2 | CI guardrail examples | Helps platform teams operationalize |
+| P2 | Longer case studies | Builds credibility with real migration stories |
 
 ## What would make this guide feel world-class
 
 1. A runnable demo repository with the same feature implemented by each workflow.
-2. Copy-paste templates for specs, AI-DLC audit entries, GSD phase plans, and Superpowers TDD prompts.
-3. A visual decision tree on the homepage.
-4. Screenshots or GIFs showing each workflow in a real agent.
-5. Exercises and quiz paths that build on the [glossary](../stack/glossary).
-6. A "wrong way vs right way" section for every framework.
-7. Benchmark-style comparison: speed, review effort, defect rate, artifact quality.
-8. Community contribution guide for adding new frameworks.
+2. CI examples that turn specs, evals, and security checks into automated gates.
+3. A short "wrong way vs right way" example for every framework.
+4. Longer real-world case studies with trade-offs and failure modes.
+5. A workshop deck for internal engineering enablement.
+6. Benchmark-style comparison: speed, review effort, defect rate, artifact quality.
+7. Community contribution guide for adding new frameworks.

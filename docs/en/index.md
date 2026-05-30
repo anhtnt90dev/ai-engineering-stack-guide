@@ -9,17 +9,34 @@ This guide explains the modern AI engineering stack from the perspective of an A
 The site is intentionally ordered in this sequence:
 
 1. Foundations: understand AI-DLC and Spec-Driven Development.
-2. Stack map: understand model serving, RAG/data, tools/MCP, evals, security, and governance.
-3. Agent layers: understand where LangChain, LangGraph, Hermes, Codex CLI, and Claude Code fit.
-4. Deep dives: understand each framework on its own terms.
-5. Comparison: compare only after the core context is clear.
-6. Adoption: choose a stack for a real team, risk level, and codebase.
+2. Decision tools: use the cheat sheet, wizard, templates, and scenario lab.
+3. Stack map: understand model serving, RAG/data, tools/MCP, evals, security, and governance.
+4. Agent layers: understand where LangChain, LangGraph, Hermes, Codex CLI, and Claude Code fit.
+5. Deep dives: understand each framework on its own terms.
+6. Comparison: compare only after the core context is clear.
+7. Adoption: choose a stack for a real team, risk level, and codebase.
 
 ## Start with the full stack
 
 If you are confused because many frameworks look like `plan -> implement -> review`, start with the [AI Engineering Stack Map](./stack/). It explains which layer each framework owns before comparing individual tools.
 
 <div class="framework-grid">
+  <a class="framework-card" href="./tools/cheat-sheet">
+    <h3>One-Page Cheat Sheet</h3>
+    <p>Fast layer map, selection matrix, and "do not compare directly" guide.</p>
+  </a>
+  <a class="framework-card" href="./tools/decision-wizard">
+    <h3>Decision Wizard</h3>
+    <p>Interactive chooser that turns your context into a recommended stack.</p>
+  </a>
+  <a class="framework-card" href="./tools/templates">
+    <h3>Templates</h3>
+    <p>Downloadable starter artifacts for specs, AI-DLC records, evals, and tool policies.</p>
+  </a>
+  <a class="framework-card" href="./tools/scenario-lab">
+    <h3>Scenario Lab</h3>
+    <p>One RAG assistant feature implemented through different workflow lenses.</p>
+  </a>
   <a class="framework-card" href="./stack/">
     <h3>AI Engineering Stack</h3>
     <p>Full map of workflow, harness, app framework, model, RAG, tools, evals, and governance layers.</p>
@@ -56,12 +73,21 @@ If you are confused because many frameworks look like `plan -> implement -> revi
     <h3>Hermes Agent</h3>
     <p>Open-source, hackable agent runtime/CLI for memory, tools, skills, and subagents.</p>
   </a>
+  <a class="framework-card" href="./tools/ecosystem-map">
+    <h3>Adjacent Ecosystem</h3>
+    <p>Where OpenAI Agents SDK, AutoGen, CrewAI, Google ADK, Dify, n8n, and managed agents fit.</p>
+  </a>
 </div>
 
 ## Quick orientation
 
 | If your biggest pain is... | Start with |
 |---|---|
+| You need the fastest decision path | [One-Page Cheat Sheet](./tools/cheat-sheet) |
+| You want a stack recommendation from your context | [Interactive Decision Wizard](./tools/decision-wizard) |
+| You need copy-paste artifacts | [Templates and Starter Artifacts](./tools/templates) |
+| You want to see the same feature through each workflow | [Scenario Lab](./tools/scenario-lab) |
+| You are confused by adjacent agent tools | [Adjacent Agent Ecosystem Map](./tools/ecosystem-map) |
 | You need the full AI engineering architecture map | [Stack Map](./stack/) |
 | You need production AI app quality | [Evals & Observability](./stack/evals-observability) |
 | You need safe tool use and agent governance | [Tools/MCP](./stack/tools-mcp) and [Security/Governance](./stack/security-governance) |
@@ -97,27 +123,32 @@ Read these pages in order if you are new to this space:
 
 1. [AI-DLC](./foundations/ai-dlc)
 2. [Spec-Driven Development](./foundations/sdd)
-3. [AI Engineering Stack Map](./stack/)
-4. [Model & Serving Layer](./stack/model-serving)
-5. [Data, RAG & Retrieval](./stack/data-rag)
-6. [Tools, MCP & Gateways](./stack/tools-mcp)
-7. [Evals & Observability](./stack/evals-observability)
-8. [Security & Governance](./stack/security-governance)
-9. [Agent Harness vs Workflow](./foundations/agent-harness-vs-workflow)
-10. [LangChain](./app-frameworks/langchain)
-11. [LangGraph](./app-frameworks/langgraph)
-12. [LangChain/LangGraph vs Hermes](./app-frameworks/langchain-langgraph-hermes)
-13. [GitHub Spec Kit](./frameworks/spec-kit)
-14. [OpenSpec](./frameworks/openspec)
-15. [AWS AI-DLC Workflows](./frameworks/aws-ai-dlc)
-16. [GSD / Get Shit Done](./frameworks/gsd)
-17. [Superpowers](./frameworks/superpowers)
-18. [Hermes Agent](./harnesses/hermes)
-19. [Codex CLI vs Claude Code vs Hermes](./harnesses/codex-claude-hermes)
-20. [Comparison Matrix](./compare/)
-21. [Same Flow, Different Purpose](./compare/same-flow-different-purpose)
-22. [Decision Guide](./compare/decision-guide)
-23. [Framework Combinations](./compare/combinations)
-24. [Real-World Use Cases](./compare/use-cases)
-25. [Adoption Playbook](./compare/adoption)
-26. [Expert Review](./compare/expert-review)
+3. [One-Page Cheat Sheet](./tools/cheat-sheet)
+4. [Interactive Decision Wizard](./tools/decision-wizard)
+5. [Templates and Starter Artifacts](./tools/templates)
+6. [Scenario Lab](./tools/scenario-lab)
+7. [Adjacent Agent Ecosystem Map](./tools/ecosystem-map)
+8. [AI Engineering Stack Map](./stack/)
+9. [Model & Serving Layer](./stack/model-serving)
+10. [Data, RAG & Retrieval](./stack/data-rag)
+11. [Tools, MCP & Gateways](./stack/tools-mcp)
+12. [Evals & Observability](./stack/evals-observability)
+13. [Security & Governance](./stack/security-governance)
+14. [Agent Harness vs Workflow](./foundations/agent-harness-vs-workflow)
+15. [LangChain](./app-frameworks/langchain)
+16. [LangGraph](./app-frameworks/langgraph)
+17. [LangChain/LangGraph vs Hermes](./app-frameworks/langchain-langgraph-hermes)
+18. [GitHub Spec Kit](./frameworks/spec-kit)
+19. [OpenSpec](./frameworks/openspec)
+20. [AWS AI-DLC Workflows](./frameworks/aws-ai-dlc)
+21. [GSD / Get Shit Done](./frameworks/gsd)
+22. [Superpowers](./frameworks/superpowers)
+23. [Hermes Agent](./harnesses/hermes)
+24. [Codex CLI vs Claude Code vs Hermes](./harnesses/codex-claude-hermes)
+25. [Comparison Matrix](./compare/)
+26. [Same Flow, Different Purpose](./compare/same-flow-different-purpose)
+27. [Decision Guide](./compare/decision-guide)
+28. [Framework Combinations](./compare/combinations)
+29. [Real-World Use Cases](./compare/use-cases)
+30. [Adoption Playbook](./compare/adoption)
+31. [Expert Review](./compare/expert-review)

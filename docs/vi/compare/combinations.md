@@ -152,7 +152,7 @@ flowchart LR
 
 ### Step-by-step
 
-1. Cài GSD. Tham khảo: [open-gsd/get-shit-done-redux](https://github.com/open-gsd/get-shit-done-redux).
+1. Cài GSD. Tham khảo: [open-gsd/gsd-core](https://github.com/open-gsd/gsd-core).
 2. Cài Superpowers. Tham khảo: [obra/superpowers](https://github.com/obra/superpowers).
 3. Chạy codebase mapping nếu repo đã tồn tại.
 4. Tạo `.planning/` project memory.
@@ -342,6 +342,6 @@ Rule:
 | GitHub Spec Kit | <https://github.com/github/spec-kit> |
 | OpenSpec | <https://github.com/Fission-AI/OpenSpec> |
 | AWS AI-DLC Workflows | <https://github.com/awslabs/aidlc-workflows> |
-| GSD Redux | <https://github.com/open-gsd/get-shit-done-redux> |
+| GSD Core | <https://github.com/open-gsd/gsd-core> |
 | Superpowers | <https://github.com/obra/superpowers> |
 | Hermes Agent | <https://github.com/NousResearch/hermes-agent> |

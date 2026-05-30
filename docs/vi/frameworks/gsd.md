@@ -6,7 +6,7 @@ title: GSD / Get Shit Done
 
 GSD là framework context-engineering và multi-agent execution, tập trung vào shipping velocity trong giới hạn context window thực tế của AI agent.
 
-Repo gốc nhiều người biết hiện trỏ sang maintained continuation `open-gsd/get-shit-done-redux`. Khi đánh giá hiện tại, nên xem repo maintained và architecture docs mới.
+Repo gốc nhiều người biết hiện trỏ sang maintained continuation `open-gsd/gsd-core`. Khi đánh giá hiện tại, nên xem repo maintained và architecture docs mới.
 
 Nếu Spec Kit là spec compiler và AWS AI-DLC là governance cockpit, GSD là **delivery factory cho agents**.
 

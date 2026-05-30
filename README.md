@@ -5,8 +5,11 @@
 [![English](https://img.shields.io/badge/language-English-blue)](https://anhtnt90dev.github.io/ai-engineering-stack-guide/en/)
 [![Tieng Viet](https://img.shields.io/badge/language-Tieng%20Viet-red)](https://anhtnt90dev.github.io/ai-engineering-stack-guide/vi/)
 [![Mermaid](https://img.shields.io/badge/diagrams-Mermaid-ff3670)](https://mermaid.js.org/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-0f766e)](./LICENSE)
 
-A bilingual field guide for understanding the modern AI engineering stack: AI-DLC, Spec-Driven Development, workflow frameworks, agent harnesses/runtimes, agent app frameworks, model serving, RAG/data, MCP/tools, evals, observability, security, and governance.
+<img src="docs/public/social-preview.svg" alt="AI Engineering Stack Guide social preview" width="100%">
+
+A bilingual field guide and practical toolkit for understanding the modern AI engineering stack: AI-DLC, Spec-Driven Development, workflow frameworks, agent harnesses/runtimes, agent app frameworks, model serving, RAG/data, MCP/tools, evals, observability, security, and governance.
 
 Live site: https://anhtnt90dev.github.io/ai-engineering-stack-guide/
 
@@ -45,6 +48,7 @@ The goal is to help readers choose the right tool for the right layer instead of
 - Why RAG, MCP/tools, evals, observability, security, and governance are separate production layers.
 - How to combine frameworks without creating multiple sources of truth.
 - Which stack fits common use cases such as SaaS features, RAG products, enterprise modernization, internal agent platforms, and long-running agent services.
+- How to use a one-page cheat sheet, interactive decision wizard, templates, and scenario lab to apply the concepts in real projects.
 
 ## Start Reading
 
@@ -56,34 +60,55 @@ The goal is to help readers choose the right tool for the right layer instead of
 Recommended path:
 
 1. Start with the Stack Map.
-2. Read AI-DLC and Spec-Driven Development foundations.
-3. Understand Agent Harness vs Workflow Framework.
-4. Read the deep dives for each workflow framework.
-5. Read LangChain, LangGraph, and Hermes positioning.
-6. Use the comparison matrix and decision guide.
-7. Apply the reference architectures and adoption playbook.
+2. Use the Cheat Sheet and Decision Wizard.
+3. Download the Templates and Starter Artifacts.
+4. Read AI-DLC and Spec-Driven Development foundations.
+5. Understand Agent Harness vs Workflow Framework.
+6. Read the deep dives for each workflow framework.
+7. Read LangChain, LangGraph, and Hermes positioning.
+8. Use the comparison matrix, scenario lab, and decision guide.
+9. Apply the reference architectures and adoption playbook.
 
 ## Topics Covered
 
 | Area | Pages |
 |---|---|
 | Foundations | AI-DLC, Spec-Driven Development, Harness vs Workflow |
+| Decision Tools | One-page cheat sheet, interactive decision wizard, templates, scenario lab, ecosystem map |
 | AI Engineering Stack | Model serving, RAG/data, MCP/tools, evals, observability, security, governance |
 | Workflow Frameworks | GitHub Spec Kit, OpenSpec, AWS AI-DLC Workflows, GSD, Superpowers |
 | Agent Harnesses | Hermes Agent, Codex CLI vs Claude Code vs Hermes |
 | Agent App Frameworks | LangChain, LangGraph, LangChain/LangGraph vs Hermes |
 | Adoption | Decision guide, combinations, real-world use cases, maturity model, anti-patterns |
 
+## Practical Toolkit
+
+| Tool | Link |
+|---|---|
+| One-page cheat sheet | https://anhtnt90dev.github.io/ai-engineering-stack-guide/en/tools/cheat-sheet |
+| Interactive decision wizard | https://anhtnt90dev.github.io/ai-engineering-stack-guide/en/tools/decision-wizard |
+| Templates and starter artifacts | https://anhtnt90dev.github.io/ai-engineering-stack-guide/en/tools/templates |
+| Scenario lab | https://anhtnt90dev.github.io/ai-engineering-stack-guide/en/tools/scenario-lab |
+| Adjacent agent ecosystem map | https://anhtnt90dev.github.io/ai-engineering-stack-guide/en/tools/ecosystem-map |
+
 ## Featured Frameworks And References
 
 - GitHub Spec Kit: https://github.com/github/spec-kit
 - OpenSpec: https://github.com/Fission-AI/OpenSpec
 - AWS AI-DLC Workflows: https://github.com/awslabs/aidlc-workflows
-- GSD Redux: https://github.com/open-gsd/get-shit-done-redux
+- GSD Core: https://github.com/open-gsd/gsd-core
 - Superpowers: https://github.com/obra/superpowers
 - Hermes Agent: https://github.com/NousResearch/hermes-agent
 - LangChain: https://docs.langchain.com/oss/python/langchain/overview
 - LangGraph: https://docs.langchain.com/oss/python/langgraph/overview
+- OpenAI Agents SDK: https://platform.openai.com/docs/guides/agents-sdk/
+- Microsoft AutoGen: https://microsoft.github.io/autogen/
+- CrewAI: https://docs.crewai.com/
+- Google Agent Development Kit: https://google.github.io/adk-docs/
+- Azure AI Foundry Agent Service: https://learn.microsoft.com/azure/ai-foundry/agents/overview
+- Amazon Bedrock Agents: https://docs.aws.amazon.com/bedrock/latest/userguide/agents.html
+- Dify: https://docs.dify.ai/
+- n8n AI Agent node: https://docs.n8n.io/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent/
 - Model Context Protocol: https://modelcontextprotocol.io/
 - OpenTelemetry: https://opentelemetry.io/
 
@@ -151,6 +176,7 @@ docs/
     theme/
   en/
     foundations/
+    tools/
     stack/
     frameworks/
     app-frameworks/
@@ -158,23 +184,28 @@ docs/
     compare/
   vi/
     foundations/
+    tools/
     stack/
     frameworks/
     app-frameworks/
     harnesses/
     compare/
+  public/
+    templates/
 ```
 
 ## Project Status
 
-This is an evolving learning guide. The current focus is clear taxonomy, deep framework comparison, and practical adoption guidance. Good next additions would be:
+This is an evolving learning guide and practical toolkit. It currently includes:
 
-- A one-page cheat sheet.
-- An interactive decision wizard.
-- Downloadable templates for specs, AI-DLC audit entries, and review checklists.
-- Example repositories showing the same feature implemented with different workflows.
-- Screenshots or short workflow demos.
+- Bilingual English and Vietnamese documentation.
+- Layer-first taxonomy for AI workflows, harnesses, app frameworks, RAG, tools, evals, observability, security, and governance.
+- Deep dives for Spec Kit, OpenSpec, AWS AI-DLC Workflows, GSD, Superpowers, Hermes, LangChain, and LangGraph.
+- A one-page cheat sheet and interactive decision wizard.
+- Downloadable templates for specs, AI-DLC records, GSD plans, TDD prompts, LangGraph state design, RAG evals, tool permissions, and adoption scoring.
+- A scenario lab showing the same RAG support assistant through multiple workflow lenses.
+- An adjacent ecosystem map for OpenAI Agents SDK, AutoGen, CrewAI, Google ADK, Azure AI Foundry Agents, Amazon Bedrock Agents, Dify, n8n, LlamaIndex, Haystack, and Semantic Kernel.
 
 ## License
 
-No explicit license file has been added yet. Add a license before reusing or redistributing the content beyond normal GitHub viewing and contribution workflows.
+MIT. See [LICENSE](./LICENSE).

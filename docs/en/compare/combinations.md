@@ -152,7 +152,7 @@ flowchart LR
 
 ### Step-by-step
 
-1. Install GSD. Reference: [open-gsd/get-shit-done-redux](https://github.com/open-gsd/get-shit-done-redux).
+1. Install GSD. Reference: [open-gsd/gsd-core](https://github.com/open-gsd/gsd-core).
 2. Install Superpowers. Reference: [obra/superpowers](https://github.com/obra/superpowers).
 3. Run codebase mapping if the repo already exists.
 4. Create `.planning/` project memory.
@@ -342,6 +342,6 @@ Rule:
 | GitHub Spec Kit | <https://github.com/github/spec-kit> |
 | OpenSpec | <https://github.com/Fission-AI/OpenSpec> |
 | AWS AI-DLC Workflows | <https://github.com/awslabs/aidlc-workflows> |
-| GSD Redux | <https://github.com/open-gsd/get-shit-done-redux> |
+| GSD Core | <https://github.com/open-gsd/gsd-core> |
 | Superpowers | <https://github.com/obra/superpowers> |
 | Hermes Agent | <https://github.com/NousResearch/hermes-agent> |

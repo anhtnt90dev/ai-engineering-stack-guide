@@ -120,7 +120,7 @@ Recommended combination: **GSD + selective Spec Kit + Superpowers**.
 
 ### Step-by-step
 
-1. Install GSD. Reference: [open-gsd/get-shit-done-redux](https://github.com/open-gsd/get-shit-done-redux).
+1. Install GSD. Reference: [open-gsd/gsd-core](https://github.com/open-gsd/gsd-core).
 2. Create `.planning/PROJECT.md`, `ROADMAP.md`, and `STATE.md`.
 3. Split MVP into phases:
    - authentication.

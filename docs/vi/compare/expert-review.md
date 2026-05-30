@@ -208,28 +208,32 @@ Cần thêm để dễ viral:
 | Templates pack | Biến reader thành user |
 | Short videos/GIFs | Cho thấy workflow chạy thật |
 
-## Backlog nội dung khuyến nghị
+## Các bổ sung hữu ích đã hoàn thành
+
+| Addition | Ở đâu |
+|---|---|
+| One-page cheat sheet | [Công cụ áp dụng](../tools/cheat-sheet) |
+| Interactive decision wizard | [Decision wizard](../tools/decision-wizard) |
+| Downloadable templates pack | [Templates và starter artifacts](../tools/templates) |
+| Scenario lab với một feature qua nhiều workflow | [Scenario lab](../tools/scenario-lab) |
+| Extended adjacent ecosystem guide | [Bản đồ ecosystem agent](../tools/ecosystem-map) |
+
+## Backlog giá trị cao còn lại
 
 | Priority | Bổ sung | Vì sao |
 |---|---|---|
-| P0 | Downloadable templates pack | Biến guide thành toolkit thực dụng |
-| P0 | One-page cheat sheet | Giúp tài liệu dễ share |
-| P1 | Example repo với 4 branches, mỗi branch một framework | Làm khác biệt cụ thể |
-| P1 | Interactive decision wizard | Tăng usability |
+| P1 | Runnable example repository với branches theo từng workflow | Làm khác biệt cụ thể bằng code |
 | P1 | Prompt library | Giúp người đọc bắt đầu nhanh |
-| P1 | Harness/runtime comparison guide | Giải thích rõ Codex, Claude Code, Hermes, OpenCode |
-| P1 | Extended ecosystem guide | Giải thích LlamaIndex, Semantic Kernel, AutoGen, CrewAI, OpenAI Agents SDK |
+| P1 | CI guardrail examples | Giúp platform teams operationalize eval/security gates |
 | P2 | Workshop deck | Hỗ trợ enterprise adoption |
-| P2 | Case studies | Tăng credibility |
-| P2 | CI guardrail examples | Giúp platform teams operationalize |
+| P2 | Case studies dài hơn | Tăng credibility bằng migration story thật |
 
 ## Điều gì sẽ làm guide này đẳng cấp hơn
 
 1. Repo demo chạy được với cùng một feature implement bởi từng workflow.
-2. Copy-paste templates cho specs, AI-DLC audit entries, GSD phase plans và Superpowers TDD prompts.
-3. Visual decision tree ngay homepage.
-4. Screenshots hoặc GIFs cho từng workflow trong agent thật.
-5. Exercises và quiz paths dựa trên [Glossary](../stack/glossary).
-6. "Wrong way vs right way" cho từng framework.
-7. Benchmark-style comparison: speed, review effort, defect rate, artifact quality.
-8. Community contribution guide để thêm framework mới.
+2. CI examples biến specs, evals và security checks thành automated gates.
+3. Short "wrong way vs right way" cho từng framework.
+4. Case studies thật dài hơn, có trade-offs và failure modes.
+5. Workshop deck cho internal engineering enablement.
+6. Benchmark-style comparison: speed, review effort, defect rate, artifact quality.
+7. Community contribution guide để thêm framework mới.

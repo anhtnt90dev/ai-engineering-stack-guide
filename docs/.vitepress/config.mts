@@ -13,6 +13,16 @@ const enSidebar = [
     ]
   },
   {
+    text: 'Decision Tools',
+    items: [
+      { text: 'One-Page Cheat Sheet', link: '/en/tools/cheat-sheet' },
+      { text: 'Interactive Decision Wizard', link: '/en/tools/decision-wizard' },
+      { text: 'Templates and Starter Artifacts', link: '/en/tools/templates' },
+      { text: 'Scenario Lab', link: '/en/tools/scenario-lab' },
+      { text: 'Adjacent Agent Ecosystem Map', link: '/en/tools/ecosystem-map' }
+    ]
+  },
+  {
     text: 'AI Engineering Stack',
     items: [
       { text: 'Stack Map', link: '/en/stack/' },
@@ -74,6 +84,16 @@ const viSidebar = [
       { text: 'AI-DLC', link: '/vi/foundations/ai-dlc' },
       { text: 'Spec-Driven Development', link: '/vi/foundations/sdd' },
       { text: 'Harness vs Workflow', link: '/vi/foundations/agent-harness-vs-workflow' }
+    ]
+  },
+  {
+    text: 'Công cụ áp dụng',
+    items: [
+      { text: 'Cheat sheet một trang', link: '/vi/tools/cheat-sheet' },
+      { text: 'Decision wizard tương tác', link: '/vi/tools/decision-wizard' },
+      { text: 'Templates và starter artifacts', link: '/vi/tools/templates' },
+      { text: 'Scenario lab', link: '/vi/tools/scenario-lab' },
+      { text: 'Bản đồ ecosystem agent', link: '/vi/tools/ecosystem-map' }
     ]
   },
   {
@@ -139,7 +159,15 @@ export default defineConfig({
   ignoreDeadLinks: false,
   head: [
     ['meta', { name: 'theme-color', content: '#0f766e' }],
-    ['link', { rel: 'icon', href: `${base}favicon.svg` }]
+    ['link', { rel: 'icon', href: `${base}favicon.svg` }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:title', content: 'AI Engineering Stack Guide' }],
+    ['meta', { property: 'og:description', content: 'A bilingual field guide for AI-DLC, SDD, agent harnesses, app frameworks, RAG, tools, evals, observability, security, and governance.' }],
+    ['meta', { property: 'og:image', content: 'https://anhtnt90dev.github.io/ai-engineering-stack-guide/social-preview.svg' }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:title', content: 'AI Engineering Stack Guide' }],
+    ['meta', { name: 'twitter:description', content: 'Choose the right AI workflow, harness, app framework, and governance layer.' }],
+    ['meta', { name: 'twitter:image', content: 'https://anhtnt90dev.github.io/ai-engineering-stack-guide/social-preview.svg' }]
   ],
   markdown: {
     theme: {
@@ -163,11 +191,19 @@ export default defineConfig({
           { text: 'GitHub Spec Kit', link: 'https://github.com/github/spec-kit' },
           { text: 'OpenSpec', link: 'https://github.com/Fission-AI/OpenSpec' },
           { text: 'AWS AI-DLC Workflows', link: 'https://github.com/awslabs/aidlc-workflows' },
-          { text: 'GSD Redux', link: 'https://github.com/open-gsd/get-shit-done-redux' },
+          { text: 'GSD Core', link: 'https://github.com/open-gsd/gsd-core' },
           { text: 'Superpowers', link: 'https://github.com/obra/superpowers' },
           { text: 'Hermes Agent', link: 'https://github.com/NousResearch/hermes-agent' },
           { text: 'LangChain Docs', link: 'https://docs.langchain.com/oss/python/langchain/overview' },
           { text: 'LangGraph Docs', link: 'https://docs.langchain.com/oss/python/langgraph/overview' },
+          { text: 'OpenAI Agents SDK', link: 'https://platform.openai.com/docs/guides/agents-sdk/' },
+          { text: 'Microsoft AutoGen', link: 'https://microsoft.github.io/autogen/' },
+          { text: 'CrewAI', link: 'https://docs.crewai.com/' },
+          { text: 'Google ADK', link: 'https://google.github.io/adk-docs/' },
+          { text: 'Azure AI Foundry Agents', link: 'https://learn.microsoft.com/azure/ai-foundry/agents/overview' },
+          { text: 'Amazon Bedrock Agents', link: 'https://docs.aws.amazon.com/bedrock/latest/userguide/agents.html' },
+          { text: 'Dify', link: 'https://docs.dify.ai/' },
+          { text: 'n8n AI Agent', link: 'https://docs.n8n.io/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent/' },
           { text: 'Model Context Protocol', link: 'https://modelcontextprotocol.io/' },
           { text: 'OpenTelemetry', link: 'https://opentelemetry.io/' }
         ]

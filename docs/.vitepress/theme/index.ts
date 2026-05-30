@@ -1,6 +1,7 @@
 import DefaultTheme from 'vitepress/theme'
 import { nextTick, onMounted, watch } from 'vue'
 import { useRoute } from 'vitepress'
+import DecisionWizard from './components/DecisionWizard.vue'
 import './custom.css'
 
 async function renderMermaidBlocks() {
@@ -40,6 +41,9 @@ async function renderMermaidBlocks() {
 
 export default {
   extends: DefaultTheme,
+  enhanceApp({ app }) {
+    app.component('DecisionWizard', DecisionWizard)
+  },
   setup() {
     const route = useRoute()
 

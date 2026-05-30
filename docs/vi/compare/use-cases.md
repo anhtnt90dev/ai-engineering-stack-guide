@@ -120,7 +120,7 @@ Combo khuyến nghị: **GSD + selective Spec Kit + Superpowers**.
 
 ### Step-by-step
 
-1. Cài GSD. Tham khảo: [open-gsd/get-shit-done-redux](https://github.com/open-gsd/get-shit-done-redux).
+1. Cài GSD. Tham khảo: [open-gsd/gsd-core](https://github.com/open-gsd/gsd-core).
 2. Tạo `.planning/PROJECT.md`, `ROADMAP.md`, `STATE.md`.
 3. Chia MVP thành phases:
    - authentication.
